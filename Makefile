@@ -11,7 +11,7 @@ help:
 	@echo "make clean          remove all input - output files"
 
 install:
-	sudo apt-get update && sudo apt-get install ffmpeg && pip3 install requirements.txt
+	sudo apt-get update && sudo apt-get install ffmpeg && pip3 install -r requirements.txt
 
 start:
 	python3 find.py
